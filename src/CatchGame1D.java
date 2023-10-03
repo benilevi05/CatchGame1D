@@ -26,7 +26,7 @@ public class CatchGame1D {
     void initialize(){
         int r1 = random.nextInt(1, 3);
         player.setEnergy(4);
-        enemy.setEnergy(6);
+        enemy.setEnergy(7);
         player.setTileAmount(TILE_AMOUNT);
         enemy.setTileAmount(TILE_AMOUNT);
         enemy.setX(r1);
